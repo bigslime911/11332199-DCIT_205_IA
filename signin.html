@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Sign In
+    </title>
+    <style>
+        .header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 60px;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100px;
+            background-color: #e2e3e4;
+        }
+        .first-header{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            
+        }
+        .department-logo{
+            align-items: center;
+            width: 200px;
+            align-content: center;
+        }
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            align-items: center;
+        }
+
+        .login-container {
+            width: 300px;
+            height: 400px;
+            margin: 0 auto;
+            padding: 40px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f2f2f2;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            
+        
+        }
+        .signin{
+            text-align: center;
+            color: #00357a;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 90px;
+        }
+
+        .input-group {
+            margin-bottom: 10px;
+        }
+
+        .input-group label {
+            display: block;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #00357a;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00357a;
+        }
+        .username{
+            color: #00357a;
+        }
+        .password{
+            color: #00357a;
+        }
+        footer {
+            margin-top: auto; /* This will push the footer to the bottom of the page */
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .footer-container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-container p {
+            margin: 0;
+        }
+
+        .footer-container ul {
+            list-style: none;
+            padding: 0;
+        
+        }
+
+        .footer-container ul li {
+            display: inline;
+            margin-left: 15px;
+
+        }
+
+        .footer-container ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-container ul li a:hover {
+            text-decoration: underline;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img class="department-logo" src="comScience_logo.png" alt="department logo">
+        </div>
+
+    </div>
+    <div class="login-container">
+        <h2 class="signin">Sign In</h2>
+        <form action="/login" method="post">
+            <div class="input-group">
+                <label class="username" for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label class="password" for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <br>
+            <br>
+            
+            <label  for="text">Don't have an account? <a href="signup.html">Sign up</a></label>
+        </form>
+    </div>
+    <footer style="background-color: #00357a;" >
+        <div class="footer-container">
+            <p>
+                &copy; DEPARTMENT OF COMPUTER SCIENCE. All rights reserved.
+
+            </p>
+            <ul>
+                <li><a>Privacy Policy</a></li>
+                <li><a>Terms of Service</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,223 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(234, 230, 230);
+    border-bottom-style:solid ;
+    background-color: white;
+    z-index: 100;
+    
+    
+    
+}
+.header-first-session{
+    display: flex;
+    text-align: center;
+    width: 200px;
+}
+.comScience-logo{
+    width: 200px;
+    padding-left: 20px;
+}
+.header-last-session{
+    padding-right: 20px;
+    min-width: 200px;
+    
+    
+}
+.home{
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+}
+.home:hover{
+    color: #BD9C6C;
+    transition: 0.3s;
+
+}
+.about{
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+
+}
+.about:hover{
+    color: #BD9C6C;
+    transition: 0.3s;
+}
+.research{
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none
+
+}
+.research:hover{
+    color: #BD9C6C;
+    transition: 0.3s;
+}
+.faculty{
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none
+}
+.faculty:hover{
+    color: #BD9C6C;
+    transition: 0.3s;
+}
+.wrapper{
+    margin: 100px auto;
+    
+
+}
+.first-image{
+    max-width: 800px;
+    float: left;
+    margin-right: 15px;
+}
+.wrapper-text-session{
+    color: #777;
+    font-family:  sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    max-width: 1170px;
+}
+.what-is-cs{
+    color: #BD9C6C;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+}
+.welcome{
+    color: #BD9C6C;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.welcome-session{
+    color: #777;
+    font-family:  sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    margin: auto;
+    max-width: 1170px;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(234, 230, 230);
+    border-bottom-style:solid ;
+
+}
+.middle-session{
+    color: #777;
+    font-family:  sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    max-width: 1170px;
+}
+.know-more{
+    color: #BD9C6C;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+.flexbox-pic{
+    width: 500px;
+}
+.flexbox-text{
+    padding-left: 30px;
+    color: #777;
+    font-family:  sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    max-width: 1170px;
+}
+.community{
+    color: #BD9C6C;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+}
+.footer-background{
+    background-color: #00357a;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer {
+    margin-top: auto; /* This will push the footer to the bottom of the page */
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.footer-container ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-container ul li a:hover {
+    text-decoration: underline;
+}
