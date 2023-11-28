@@ -1,5 +1,6 @@
 # DCIT_205_IA
-
+Donkor Francis 
+11332199
 Computer Department Website
 Welcome to the Computer Department website! This website serves as a hub of information and resources related to our department's activities, courses, research, and more. Whether you are a student, faculty member, or an interested visitor, we hope you find this website informative and helpful.
 Table of Contents
@@ -20,15 +21,16 @@ The Home section is the landing page of our website. Here, you will find a brief
 
 
  ![image](https://github.com/bigslime911/11332199-DCIT_205_IA/assets/145637377/45578b1c-2f02-440b-b79d-0f3e08791982)
+ ![image](https://github.com/bigslime911/11332199-DCIT_205_IA/assets/145637377/d235c480-3b91-4ffc-9b15-cdfbea4a1b2a)
 
-![image](https://github.com/bigslime911/11332199-DCIT_205_IA/assets/145637377/6c490e0d-1775-4b88-8616-f63e841d06d7)
 
 
 
  Contact Us
 The Contact Us page provides you with various means of getting in touch with our department. If you have any inquiries, suggestions, or feedback, we encourage you to reach out to us through the contact information provided. We value your input and strive to respond to all inquiries in a timely manner.
 
- ![image](https://github.com/bigslime911/11332199-DCIT_205_IA/assets/145637377/d235c480-3b91-4ffc-9b15-cdfbea4a1b2a)
+
+ ![image](https://github.com/bigslime911/11332199-DCIT_205_IA/assets/145637377/6c490e0d-1775-4b88-8616-f63e841d06d7)
 
 ![image](https://github.com/bigslime911/11332199-DCIT_205_IA/assets/145637377/a084b049-10c3-4b65-97a6-b7a6c9e0e60a)
 
